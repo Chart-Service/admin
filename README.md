@@ -8,7 +8,12 @@
 - npm `v6.5.0`
 - create-react-app `v2.1.3`
 - macOS
-- vsCode
+- VSCode
+
+## VSCode Extensions
+
+- Prettier
+- ESLint
 
 ## Run
 
