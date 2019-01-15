@@ -6,14 +6,13 @@
       "legacyDecorators": true
     }
   },
-  "plugins": ["babel", "prettier"],
+  "plugins": ["babel", "prettier", "react-hooks"],
   "rules": {
     "no-unused-vars": "warn",
     "no-console": "warn",
     "class-methods-use-this": "warn",
-
     "import/prefer-default-export": "off",
-
+    "react-hooks/rules-of-hooks": "error",
     "react/prefer-stateless-function": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/button-has-type": "warn",
@@ -43,9 +42,8 @@
     ],
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/no-static-element-interactions": "warn",
-
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "singleQuote": true,
         "semi": true,
@@ -60,6 +58,9 @@
     "import/resolver": {
       "webpack": {
         "extensions": [".js", ".jsx"]
+      },
+      "node": {
+        "paths": ["src"]
       }
     }
   },
