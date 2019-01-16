@@ -3,10 +3,12 @@ html {
 }
 
 body {
+  cursor: pointer;
   /* Remember to use the other versions for IE 10 and older browsers! */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100%;
   color: #fff;
+  background: rgba(0, 0, 0, 0.05);
 }
