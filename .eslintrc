@@ -8,6 +8,7 @@
   },
   "plugins": ["babel", "prettier", "react-hooks"],
   "rules": {
+    "linebreak-style": 0,
     "no-unused-vars": "warn",
     "no-console": "warn",
     "class-methods-use-this": "warn",
